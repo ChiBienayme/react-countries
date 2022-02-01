@@ -6,7 +6,7 @@ class Button extends Component {
         return (
             <button
                 onClick={this.props.onClick} 
-                className={"btn btn-primary"}
+                className="btn btn-primary m-2 p-2"
                 type="button">
                     {this.props.children}
             </button>
